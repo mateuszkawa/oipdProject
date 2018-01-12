@@ -1,0 +1,15 @@
+registration:
+      github-client-1:
+        client-id: b219aad39642fc2f8ecd
+        client-secret: e1e716739e6a9f8103474d029c1d9529d037aa9f
+        client-name: Github user
+        provider: github
+        scope: user
+        redirect-uri-template: http://localhost:8080/login/oauth2/github
+      github-client-2:
+        client-id: b219aad39642fc2f8ecd
+        client-secret: e1e716739e6a9f8103474d029c1d9529d037aa9f
+        client-name: Github email
+        provider: github
+        scope: user:email
+        redirect-uri-template: http://localhost:8080/login/oauth2/github
